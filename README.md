@@ -9,7 +9,6 @@ python3.9 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 export MANAGER_IPS=123.123.123.123,127.0.0.2
-refresh shell/terminal
 pytest
 ```
 ## Rules and requirements
